@@ -1,0 +1,83 @@
+{
+	"name": "SourceDataset_bjp",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "AzureBlobStorage1",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "DelimitedText",
+		"typeProperties": {
+			"location": {
+				"type": "AzureBlobStorageLocation",
+				"container": "datastore"
+			},
+			"columnDelimiter": ",",
+			"escapeChar": "\\",
+			"firstRowAsHeader": true,
+			"quoteChar": "\""
+		},
+		"schema": [
+			{
+				"name": "Date",
+				"type": "String"
+			},
+			{
+				"name": "Tournament",
+				"type": "String"
+			},
+			{
+				"name": "Round",
+				"type": "String"
+			},
+			{
+				"name": "Player 1",
+				"type": "String"
+			},
+			{
+				"name": "Faction",
+				"type": "String"
+			},
+			{
+				"name": "VP",
+				"type": "String"
+			},
+			{
+				"name": "WLD",
+				"type": "String"
+			},
+			{
+				"name": "Player 2",
+				"type": "String"
+			},
+			{
+				"name": "Opp Faction",
+				"type": "String"
+			},
+			{
+				"name": "Opp VP",
+				"type": "String"
+			},
+			{
+				"name": "W",
+				"type": "String"
+			},
+			{
+				"name": "L",
+				"type": "String"
+			},
+			{
+				"name": "D",
+				"type": "String"
+			},
+			{
+				"name": "First Result",
+				"type": "String"
+			},
+			{
+				"name": "First Loss",
+				"type": "String"
+			}
+		]
+	}
+}
