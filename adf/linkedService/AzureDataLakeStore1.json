@@ -1,0 +1,13 @@
+{
+	"name": "AzureDataLakeStore1",
+	"properties": {
+		"annotations": [],
+		"type": "AzureDataLakeStore",
+		"typeProperties": {
+			"dataLakeStoreUri": "https://whelo.azuredatalakestore.net/webhdfs/v1",
+			"tenant": "89dc3dcb-f7a2-4754-98f1-297914e0bd4d",
+			"subscriptionId": "eef279a9-e9ec-4b90-a8ec-77fba95539f9",
+			"resourceGroupName": "WhEloProject"
+		}
+	}
+}
